@@ -1,1 +1,164 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #eaeaea;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-instagram {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.instagram-img {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.instagram-img .celular {
+  width: 44rem;
+}
+
+.login-instagram {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+
+.login-instagram .blue {
+  color: #0476D9;
+}
+
+.login-instagram button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  color: white;
+  background: #0476D9;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.login-instagram button:hover {
+  opacity: 0.8;
+}
+
+.login-instagram .remover {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.grupo {
+  background-color: white;
+  width: 70%;
+  min-height: 70px;
+  margin: 10px 0;
+  -webkit-box-shadow: 0px 0px 3px gray;
+          box-shadow: 0px 0px 3px gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grupo p {
+  text-align: center;
+  color: silver;
+}
+
+.grupo .img-perfil {
+  width: 100px;
+  height: 100px;
+  -webkit-clip-path: circle(50%);
+          clip-path: circle(50%);
+  margin-bottom: 15px;
+}
+
+.grupo .logo-instagram {
+  padding: 25px 0 10px 0;
+}
+
+.grupo img {
+  display: block;
+  margin: 0 auto;
+}
+
+.grupo2 {
+  width: 70%;
+}
+
+.grupo2 .baixar {
+  text-align: center;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.grupo-botoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.grupo-botoes img {
+  width: 150px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

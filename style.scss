@@ -1,0 +1,127 @@
+$corFundo: rgb(234, 234, 234);
+$corPadrao: #0476D9;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: $corFundo;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-instagram{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-img{
+    width: 40%;
+    display: flex;
+    justify-content: start;
+
+    .celular{
+        width: 44rem;
+    }
+}
+
+.login-instagram{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
+
+    .blue{
+        color: $corPadrao;
+    }
+
+    button{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        color: white;
+        background: $corPadrao;
+        padding: 8px;
+        border-radius: 5px;
+        border: none;
+        font-size: 18px;
+        transition: 1s;
+        cursor: pointer;
+
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+
+    .remover{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+}
+
+.grupo{
+    background-color: white;
+    width: 70%;
+    min-height: 70px;
+    margin: 10px 0;
+    box-shadow: 0px 0px 3px gray;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        text-align: center;
+        color: silver;
+    }
+
+    .img-perfil{
+        width: 100px;
+        height: 100px;
+        clip-path: circle(50%);
+        margin-bottom: 15px;
+    }
+
+    .logo-instagram{
+        padding: 25px 0 10px 0;
+    }
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.grupo2{
+    width: 70%;
+    
+    .baixar{
+        text-align: center;
+        color: black;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+.grupo-botoes{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    img{
+        width: 150px;
+        margin-top: 10px;
+    }
+}
