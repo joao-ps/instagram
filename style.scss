@@ -17,6 +17,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (max-width: 850px){
+        background-color: white;
+    }
 }
 
 .container-instagram{
@@ -29,9 +33,17 @@ body{
     width: 40%;
     display: flex;
     justify-content: start;
+                                // RESPONSIVIDADE DA CLASSE INSTAGRAM-IMG
+    @media (max-width: 850px){
+        display: none;
+    }
 
     .celular{
         width: 44rem;
+                                // RESPONSIVIDADE DA CLASSE CELELAR
+        @media (max-width: 1250px){
+            width: 40rem;
+        }
     }
 }
 
@@ -41,6 +53,16 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: left;
+                                // RESPONSIVIDADE DA CLASSE LOGIN INSTAGRAM
+    @media (max-width: 1250px){
+        width: 50%;
+        align-items: flex-end;
+    }
+
+    @media (max-width: 850px){
+        width: 70%;
+        align-items: center;
+    }
 
     .blue{
         color: $corPadrao;
@@ -82,6 +104,11 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+                                //RESPONSIVIDADE DA CLASSE GRUPO
+    @media (max-width: 850px){
+        width: 100%;
+        box-shadow: none;
+    }
 
     p{
         text-align: center;
@@ -107,6 +134,10 @@ body{
 
 .grupo2{
     width: 70%;
+                                //RESPONSIVIDADE DA CLASSE GRUPO 2
+    @media (max-width: 650px){
+        width: 100%;
+    }
     
     .baixar{
         text-align: center;
